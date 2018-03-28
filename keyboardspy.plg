@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: keyboardspy - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA61.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/keyboardspy.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\shadow\vc\keyboardspy\KeyBoardHook.cpp"
+"F:\shadow\vc\keyboardspy\keyboardspy.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA61.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA62.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/keyboardspy.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\shadow\vc\keyboardspy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA62.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/keyboardspy.pdb" /machine:I386 /out:"Release/keyboardspy.exe"  .\Release\KeyBoardHook.obj .\Release\keyboardspy.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+KeyBoardHook.cpp
+F:\shadow\vc\keyboardspy\KeyBoardHook.cpp(438) : warning C4101: 'i' : unreferenced local variable
+keyboardspy.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+keyboardspy.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: keyboardspy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA64.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/keyboardspy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\shadow\vc\keyboardspy\KeyBoardHook.cpp"
+"F:\shadow\vc\keyboardspy\keyboardspy.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA64.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA65.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/keyboardspy.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\shadow\vc\keyboardspy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SHA\LOCALS~1\Temp\RSPA65.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/keyboardspy.pdb" /debug /machine:I386 /out:"Debug/keyboardspy.exe" /pdbtype:sept  .\Debug\KeyBoardHook.obj .\Debug\keyboardspy.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+KeyBoardHook.cpp
+F:\shadow\vc\keyboardspy\KeyBoardHook.cpp(438) : warning C4101: 'i' : unreferenced local variable
+keyboardspy.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+keyboardspy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
